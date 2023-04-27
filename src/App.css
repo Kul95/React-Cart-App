@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.ui{
+  /* border: 2px solid black; */
+display: inline-block;
+box-shadow: 2px 2px 2px 2px;
+
+}
+.product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 5px solid rgb(215, 24, 24);
+  background-color: white;
+  /* padding:20px; */
+  
+}
+.product img{
+  width: 20vh;
+  margin-bottom: 80px;
+}
+.product .ui button {
+
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  
+  
+}
+.ui button{
+  /* margin-right: 150px; */
+  display: inline;
+}
+
+
+
